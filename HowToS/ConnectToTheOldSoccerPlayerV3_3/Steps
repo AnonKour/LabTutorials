@@ -1,0 +1,13 @@
+In order to connect to the robot with ethernet in linux we must do the following steps:
+
+1) Create a new ethernet connection and name it as you please.
+2) In the IPV4 tab we set the method for the address to manual.
+3) On the address field we add 10.0.0.1
+4) On the netmask field we add 255.255.255.0
+5) On the gateway field we add 10.0.0.0
+6) Finaly the same we add on the DNS server and save it. [10.0.0.0] 
+7) The we select it from the connections in order to use it.
+
+Depending on the version the interface may vary.
+
+For additional help check the images in the screenshots folder.
